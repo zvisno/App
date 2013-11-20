@@ -5,7 +5,7 @@ module UploadHelper
 
   def delete_upload_files 
     upload_files_from_tmp.each do |f|
-    FileUtils.rm(f) 
+      FileUtils.rm(f) 
     end
   end
 end
